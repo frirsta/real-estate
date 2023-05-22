@@ -26,6 +26,7 @@
 
 .ImageGridRowTwo {
   grid-row: span 2;
+  height: 500px!important;
 }
 
 @media screen and (max-width: 1024px) {

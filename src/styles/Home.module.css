@@ -1,31 +1,10 @@
 
-
-/* featuredHome */
-
-.FeaturedHomeSection {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding-bottom: 100px;
-}
-
-.FeaturedHome {
-  margin: 0 auto;
-  width: fit-content;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-.FeaturedHomes{
-  text-align: center;
-  margin: 40px 0px;
-}
-
-
 .Hero{
   background: url('../assets/hero.jpg') no-repeat center center;
   width: 100vw;
   height: 100vh;
+  max-height: 800px;
+  filter: grayscale(1);
 
 }
 .HeroContainer{
@@ -35,12 +14,19 @@
 }
 
 .HeroTitle {
-  margin: auto;
-  top: 50%;
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 80%;
-  height: 50%;
-  font-size: 50px;
+max-width: 1200px;
 }
+
+/* featuredHome */
+
+.FeaturedHomeSection {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 100px;
+}
+
+.FeaturedHomes{
+  text-align: center;
+  margin: 40px 0px;
+}
+

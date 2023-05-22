@@ -2,20 +2,10 @@ li {
   padding: 0 10px;
 }
 
-.Brand{
+.NavbarBrand{
+width: 200px;
+}
 
-}
-.Button {
-  background-color: transparent !important;
-  border: 1px solid #fff !important;
-  padding: 0 40px !important;
-  border-radius: 0px !important;
-  min-width: fit-content;
-
-}
-.Button:hover {
-  background-color: rgb(3, 32, 4) !important;
-}
 .NavbarContainer {
   background-color: transparent!important;
   position: absolute!important;
@@ -35,6 +25,7 @@ li {
   color: #fff!important;
   text-decoration: none;
   animation: NavbarLinks 1s;
+  font-size: 20px;
   
 }
 .Navbar {
@@ -45,7 +36,11 @@ li {
   justify-content: space-evenly;
   align-items: center;
   width: 80%;
-
+  padding: 0px!important;
+}
+.Link:hover{
+color: #a38a67!important;
+transition: 0.3s;
 }
 
 @keyframes NavbarLinks {
@@ -57,29 +52,37 @@ li {
   }
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1024px) {
+  .Link{
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 991px) {
   .Navbar{
     flex-direction: column;
-    width: 100%;
-    margin: 0 auto!important;
     height: 80vh;
-    padding: 0px;
-    background-color: rgba(78,75,92,.95);
   }
+
+  .NavContainer{
+    height: 80vh;
+    padding: 50px 0;
+    background-color: rgba(0,0,0, .95);
+  }
+
   .Link  {
     animation: none;
     border-bottom: 1px solid gray;
-    font-size: 20px;
+    font-size: 30px;
   }
-  .Link:hover,
-  .Link:focus-within {
-    color: pink!important;
-    cursor: pointer;
-    
-  }
+
   .Button {
     display: none!important;
+  }
+  .NavbarBrand{
+    width: fit-content;
   }
 
 
 }
+

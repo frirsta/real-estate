@@ -18,6 +18,7 @@
   margin: 0 10px;
   width: 15vw !important;
   height: 15vw !important;
+  filter: grayscale(1);
 }
 
 .Name {

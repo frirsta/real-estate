@@ -6,10 +6,7 @@ import Typography from "@mui/joy/Typography";
 import { Link } from "react-router-dom";
 import styles from "../styles/FeaturedHome.module.css";
 import CardContent from "@mui/joy/CardContent";
-import apartment from "../assets/featuredHomes/apartment.jpg";
-import apartment_two from "../assets/featuredHomes/apartment_two.jpg";
-import apartment_three from "../assets/featuredHomes/apartment_three.jpg";
-import apartment_four from "../assets/featuredHomes/apartment_four.jpg";
+import HomeList from '../lists/HomeList';
 
 const FeaturedHomes = () => {
   return (
@@ -33,9 +30,9 @@ const FeaturedHomes = () => {
               <figure>
                 <img
                   className={styles.ProperyImage}
-                  src={apartment}
+                  src={HomeList[6].src1}
                   loading="lazy"
-                  alt="Yosemite by Casey Horner"
+                  alt={HomeList[6].alt1}
                 />
               </figure>
             </div>
@@ -63,7 +60,7 @@ const FeaturedHomes = () => {
                   }}
                 >
                   <Typography className={styles.LearnMoreContainer}>
-                    <Link className={styles.LearnMore}>Learn more</Link>
+                    <Link to={`property/${HomeList[6].id}`} className={styles.LearnMore}>Learn more</Link>
                   </Typography>
                 </Box>
               </Box>
@@ -88,9 +85,9 @@ const FeaturedHomes = () => {
               <figure>
                 <img
                   className={styles.ProperyImage}
-                  src={apartment_two}
+                  src={HomeList[1].src1}
                   loading="lazy"
-                  alt="Yosemite by Casey Horner"
+                  alt={HomeList[1].alt1}
                 />
               </figure>
             </div>
@@ -118,7 +115,7 @@ const FeaturedHomes = () => {
                   }}
                 >
                   <Typography className={styles.LearnMoreContainer}>
-                    <Link className={styles.LearnMore}>Learn more</Link>
+                    <Link to={`property/${HomeList[1].id}`} className={styles.LearnMore}>Learn more</Link>
                   </Typography>
                 </Box>
               </Box>
@@ -145,9 +142,9 @@ const FeaturedHomes = () => {
               <figure>
                 <img
                   className={styles.ProperyImage}
-                  src={apartment_three}
+                  src={HomeList[2].src1}
                   loading="lazy"
-                  alt="Yosemite by Casey Horner"
+                  alt={HomeList[2].alt1}
                 />
               </figure>
               </div>
@@ -175,7 +172,7 @@ const FeaturedHomes = () => {
                   }}
                 >
                   <Typography className={styles.LearnMoreContainer}>
-                    <Link className={styles.LearnMore}>Learn more</Link>
+                    <Link to={`property/${HomeList[2].id}`}  className={styles.LearnMore}>Learn more</Link>
                   </Typography>
                 </Box>
               </Box>
@@ -200,9 +197,9 @@ const FeaturedHomes = () => {
               <figure>
                 <img
                   className={styles.ProperyImage}
-                  src={apartment_four}
+                  src={HomeList[7].src1}
                   loading="lazy"
-                  alt="Yosemite by Casey Horner"
+                  alt={HomeList[7].alt1}
                 />
               </figure>
             </div>
@@ -230,7 +227,7 @@ const FeaturedHomes = () => {
                   }}
                 >
                   <Typography className={styles.LearnMoreContainer}>
-                    <Link className={styles.LearnMore}>Learn more</Link>
+                    <Link to={`property/${HomeList[7].id}`} className={styles.LearnMore}>Learn more</Link>
                   </Typography>
                 </Box>
               </Box>

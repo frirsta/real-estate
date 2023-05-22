@@ -2,6 +2,9 @@
   width: 40vw;
   max-width: 400px;
 }
+.Button{
+  background-color: #000!important;
+}
 
 @media screen and (max-width: 768px) {
     .Newsletter {

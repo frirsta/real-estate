@@ -45,7 +45,7 @@ const ContactForm = ({ price }) => {
           <Input
             placeholder="Enter your full name"
             className={styles.FormInput}
-            color="info"
+            
             {...register("name")}
           />
           {errors.name && <span>This field is required</span>}
@@ -55,7 +55,7 @@ const ContactForm = ({ price }) => {
           <Input
             placeholder="Email address"
             className={styles.FormInput}
-            color="info"
+            
             {...register("email")}
           />
           {errors.email && <span>Not valid email address</span>}
@@ -66,7 +66,7 @@ const ContactForm = ({ price }) => {
           <Input
             placeholder="Phone number"
             className={styles.FormInput}
-            color="info"
+            
             {...register("number")}
           />
           {errors.number && <span>Not valid phone number</span>}
@@ -77,7 +77,7 @@ const ContactForm = ({ price }) => {
             type="date"
             placeholder="date"
             className={styles.FormInput}
-            color="info"
+            
             {...register("date")}
           />
           {errors.date && <span>Not valid date</span>}

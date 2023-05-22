@@ -1,8 +1,8 @@
 .Hero {
-  background: url("../assets/amenities/AmenitiesHero.jpg") no-repeat center
-    center;
   width: 100vw;
   height: 600px;
+  object-fit: cover;
+  filter: grayscale(1);
 }
 .HeroContainer {
   position: relative;

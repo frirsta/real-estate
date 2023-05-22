@@ -17,7 +17,7 @@ const PropertyDetails = () => {
 
   return (
     <div>
-      <Hero src={HeroImage} />
+      <Hero src={HeroImage} text={HomeList[id].address} />
 
       <PropertyImages />
       <div className={styles.Container}>

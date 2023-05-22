@@ -9,6 +9,7 @@
   justify-content: center;
   align-items: baseline;
   margin: 0 auto;
+  filter: grayscale(1);
 }
 .FeaturedHomeCard,
 .CardCover {
@@ -28,8 +29,9 @@
   margin: 10px;
 }
 .LearnMore {
-  color: #fff !important;
-  width: 100%;
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
 }
 .ProperyImage {
   object-fit: cover;
@@ -40,11 +42,9 @@
 
 .PropertyName {
   font-size: 50px;
-  color: #fff;
 }
 
 .FeaturedHomeTitleContainer {
-  color: #fff;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -83,6 +83,10 @@
     padding: 0px;
     border-radius: 0px !important;
   }
+  
+  .ProperyImage{
+    border-radius: 0px!important;
+  }
 
   .LearnMoreContainer {
     padding-bottom: 25px;
@@ -93,19 +97,7 @@
   .NowSelling {
     padding: 10px;
   }
-  .FeaturedHomeContent {
-    height: 34%;
-    max-width: unset;
-    position: relative;
-    top: 100%;
-    text-align: center;
-  }
-  .ViewProject {
-    border: 1px solid;
-    width: 200px;
-    padding: 10px 0;
-    color: blue;
-  }
+
 }
 
 @media screen and (max-width: 481px) {
