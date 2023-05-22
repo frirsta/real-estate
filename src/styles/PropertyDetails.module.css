@@ -1,8 +1,3 @@
-.Hero {
-  background: url("../assets//homes/hero.jpg") no-repeat center center;
-  height: 300px;
-}
-
 .HorizontalLine {
   border-bottom: 1px solid #686a79;
   width: 600px;
