@@ -91,11 +91,18 @@
   .LearnMoreContainer {
     padding-bottom: 25px;
     font-size: 30px !important;
+    width: 100%;
+    text-align: center;
   }
 
   .PropertyName,
   .NowSelling {
     padding: 10px;
+  }
+  .CardContent,
+  .LearnMore{
+    width: 100%;
+    text-align: center;
   }
 
 }
