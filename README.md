@@ -11,7 +11,6 @@ Technologies:
 * React
 * Material UI
 * React Bootstrap
-* JavaScript
 * HTML
 * CSS
 
