@@ -1,0 +1,112 @@
+.CardContent {
+  position: absolute;
+}
+
+.FeaturedHome {
+  display: flex;
+  flex-direction: row;
+  max-width: 1200px;
+  justify-content: center;
+  align-items: baseline;
+  margin: 0 auto;
+}
+.FeaturedHomeCard,
+.CardCover {
+  height: 500px;
+  padding: 15px;
+}
+.FeaturedHomeContainer600 {
+  width: 600px;
+  padding: 0px !important;
+  max-width: 45vw;
+  margin: 10px;
+}
+.FeaturedHomeContainer400 {
+  width: 400px;
+  padding: 0px !important;
+  max-width: 35vw;
+  margin: 10px;
+}
+.LearnMore {
+  color: #fff !important;
+  width: 100%;
+}
+.ProperyImage {
+  object-fit: cover;
+  height: 500px;
+  width: 100%;
+  border-radius: 10px!important;
+}
+
+.PropertyName {
+  font-size: 50px;
+  color: #fff;
+}
+
+.FeaturedHomeTitleContainer {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+.FeaturedHomeTitle {
+  display: flex;
+  flex-direction: column;
+}
+
+.NowSelling {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 992px) {
+  .FeaturedHomeCard,
+  .CardCover,
+  .ProperyImage {
+    height: 400px;
+    background: none !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .FeaturedHome {
+    flex-direction: column;
+  }
+  .FeaturedHomeContainer600,
+  .FeaturedHomeContainer400 {
+    width: 100vw;
+    max-width: 100vw;
+    margin: 50px auto;
+    padding: 0px;
+    border-radius: 0px !important;
+  }
+
+  .LearnMoreContainer {
+    padding-bottom: 25px;
+    font-size: 30px !important;
+  }
+
+  .PropertyName,
+  .NowSelling {
+    padding: 10px;
+  }
+  .FeaturedHomeContent {
+    height: 34%;
+    max-width: unset;
+    position: relative;
+    top: 100%;
+    text-align: center;
+  }
+  .ViewProject {
+    border: 1px solid;
+    width: 200px;
+    padding: 10px 0;
+    color: blue;
+  }
+}
+
+@media screen and (max-width: 481px) {
+}

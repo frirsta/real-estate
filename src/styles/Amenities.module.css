@@ -1,0 +1,117 @@
+.AmenitiesTitle{
+    text-align: center;
+    position: relative;
+    bottom: 55vh;
+    color: #fff;
+    letter-spacing: 10px;
+    font-size: 50px;
+}
+.CardContainer{
+    max-width: 1200px;
+    margin: 0 auto;
+    position: absolute;
+    z-index: 0;
+}
+
+/* about */
+.About{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.About h3{
+    color: #a38a67;
+}
+
+.AmenitiesContent{
+    width: 300px;
+    margin-bottom: 100px;
+}
+
+.AboutImage{
+    background: url('../assets/amenities/About.jpg') no-repeat center center;
+    width: 600px;
+    height: 375px;
+    max-width: 50vw;
+}
+
+
+.PoolImage{
+    background: url('../assets/amenities/Pool.jpg') no-repeat center center;
+    width: 100vw;
+    height: 600px;
+}
+.GymImage{
+    background: url('../assets/amenities/Gym.jpg') no-repeat center center;
+    width: 100vw;
+    height: 600px;
+}
+.Card{
+    max-width: 800px;
+    width: 70vw;
+    border-top: 20px solid #a38a67;
+    position: relative;
+    margin: 0 auto;
+    bottom: 100px;
+    background: #fff;
+    padding: 20px;
+}
+.PoolCard{
+    margin-left: 20vw;
+}
+.GymCard{
+    margin-right: 20vw;
+}
+.Title{
+    text-align: center;
+}
+.Content{}
+
+@media screen and (max-width: 1024px) {
+    .Title{
+        font-size: 25px;
+    }
+}
+  @media screen and (max-width: 992px) {
+
+  }
+  
+  @media screen and (max-width: 768px) {
+    .About{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 50px 0;
+    }
+    .AboutImage{
+        display: none;
+    }
+    .AmenitiesContent{
+        width: 100%;
+        margin-bottom: 80px;
+        padding-left: 40px;
+        padding-right: 40px;
+        
+    }
+    .AboutContentContainer{
+        text-align: center;
+    }
+    
+    .Card{
+
+    }
+    .Title{
+        font-size: 35px;
+    }
+    .Content{
+font-size: 16px;
+    }
+  }
+  
+  @media screen and (max-width: 481px) {
+
+  }
+  @media screen and (max-width: 320px) {
+    
+  }

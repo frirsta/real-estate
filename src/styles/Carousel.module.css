@@ -1,0 +1,63 @@
+.ProjectDetailsSection {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.Container {
+  --gap: 1.2rem;
+  --num-cols: 5;
+
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: repeat(var(--num-cols), 1fr);
+  gap: var(--gap);
+  overflow: hidden;
+}
+
+.Container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.SpanThree {
+  grid-column: span 3;
+}
+
+.ImageGridRowTwo {
+  grid-row: span 2;
+}
+
+@media screen and (max-width: 1024px) {
+  .Container {
+    --num-cols: 2;
+
+    --grap: 0.5rem;
+  }
+
+  .SpanThree {
+    grid-column: span 2;
+  }
+
+  .OrderOne {
+    order: 1;
+  }
+  .OrderTwo {
+    order: 2;
+  }
+  .OrderThree {
+    order: 3;
+  }
+  .OrderFour {
+    order: 4;
+  }
+  .OrderFive {
+    order: 5;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .Container {
+    padding: 50px;
+  }
+}

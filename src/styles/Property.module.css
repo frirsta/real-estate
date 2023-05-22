@@ -1,0 +1,110 @@
+.AspectRatio {
+}
+.Image {
+  height: 345px;
+}
+.PropertyContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 100px;
+}
+.PropertyCard {
+  margin: 20px auto;
+  text-align: center;
+  width: 28vw !important;
+}
+.CardContainer {
+  display: inline-block;
+  margin: 10px;
+}
+
+.Price,
+.Address {
+  font-size: 20px;
+}
+
+
+.LearnMore {
+    display: flex;
+    margin-top: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: pink!important;
+    border: 1px solid #fff !important;
+    padding: 20px 40px !important;
+    border-radius: 0px !important;
+    width: fit-content;
+  
+  }
+  .LearnMore:hover {
+    background-color: #a38a67 !important;
+    color: #fff;
+  }
+
+.PropertyInformation {
+  text-align: left;
+}
+
+.Name {
+  font-size: 35px!important;
+  margin: 0px!important;
+}
+
+.Details,
+.Address,
+.Price {
+    font-size: 23px!important;
+    margin: 3px 0px!important;
+}
+
+@media screen and (max-width: 1450px) {
+  .PropertyCard {
+    width: 40vw !important;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+    .Name {
+        font-size: 30px!important;
+      }
+      
+      .Details,
+      .Address,
+      .Price {
+          font-size: 20px!important;
+          margin: 0px!important;
+      }
+}
+
+@media screen and (max-width: 992px) {
+    .Name {
+        font-size: 28px!important;
+      }
+      
+      .Details,
+      .Address,
+      .Price {
+          font-size: 18px!important;
+      }
+}
+  
+@media screen and (max-width: 768px) {
+  .PropertyCard {
+    width: 70vw !important;
+  }
+  .Name {
+    font-size: 30px!important;
+  }
+  
+  .Details,
+  .Address,
+  .Price {
+      font-size: 20px!important;
+  }
+}
+@media screen and (max-width: 481px) {
+}
+@media screen and (max-width: 320px) {
+}

@@ -1,0 +1,116 @@
+.Hero {
+  background: url("../assets//homes/hero.jpg") no-repeat center center;
+  height: 300px;
+}
+
+.HorizontalLine {
+  border-bottom: 1px solid #686a79;
+  width: 600px;
+  margin-top: 50px;
+}
+
+.DetailsSection {
+  padding-top: 50px;
+  width: 600px;
+}
+
+.Container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.HomeDetailsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.HomeDetailsItems {
+  display: flex;
+  flex-direction: row;
+}
+.Address {
+  display: flex;
+}
+.Address h2 {
+  font-size: 25px;
+}
+
+.ShareButton {
+  padding: 10px 50px !important;
+  margin: 0px 40px !important;
+  border-radius: 15px !important;
+}
+.ShareIcon {
+  color: pink;
+}
+
+.AddressDetails {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.AgentContainer {
+  margin: 50px 0;
+}
+
+/* table */
+
+.PropertyDetails {
+  display: flex;
+  flex-direction: column;
+  margin: 50px 0;
+  width: 600px;
+}
+.PropertyDetails h3 {
+  font-size: 25px;
+}
+.TableData {
+  width: 10vw !important;
+}
+.TableInformation {
+  width: 0px !important;
+}
+
+@media screen and (max-width: 1024px) {
+  .FormContainer {
+  }
+}
+@media screen and (max-width: 992px) {
+  .AddressDetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .HomeDetailsContainer,
+  .parent,
+  .DetailsSection,
+  .PropertyDetails,
+  .HorizontalLine {
+    width: 100%;
+  }
+  .Container {
+    padding: 50px;
+  }
+  .Address {
+    justify-content: space-between;
+  }
+  .Address h2 {
+    font-size: 30px;
+    padding-bottom: 15px;
+  }
+  .ShareButton {
+    margin: 0px !important;
+  }
+  .Address {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 481px) {
+}
+@media screen and (max-width: 320px) {
+}

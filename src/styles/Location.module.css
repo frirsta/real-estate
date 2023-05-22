@@ -1,0 +1,67 @@
+.Title{
+    text-align: center;
+    position: relative;
+    bottom: 55vh;
+    color: #fff;
+    letter-spacing: 10px;
+    font-size: 50px;
+}
+
+
+.About{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.About h3{
+    color: #a38a67;
+}
+.AboutText{
+    width: 300px;
+    margin-bottom: 100px;
+}
+
+.AboutImage{
+    background: url('../assets/loaction/about.jpg') no-repeat center center;
+    width: 600px;
+    height: 375px;
+    max-width: 50vw;
+}
+
+.Map{
+    background: url('../assets/loaction/map.jpg') no-repeat center center;
+    height: 300px;
+    margin: 100px auto;
+    background-size: cover;
+    width: 80vw;
+    max-width: 900px;
+}
+
+@media screen and (max-width: 768px) {
+    .About{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 50px 0;
+    }
+    .AboutImage{
+        display: none;
+    }
+    .AboutText{
+        width: 100%;
+        margin-bottom: 80px;
+        padding-left: 40px;
+        padding-right: 40px;
+        
+    }
+    .AboutContentContainer{
+        text-align: center;
+    }
+
+.Map{
+    width: 100%;
+    margin: 0px;
+}
+}
