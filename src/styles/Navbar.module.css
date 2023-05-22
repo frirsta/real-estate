@@ -65,6 +65,12 @@ transition: 0.3s;
     height: 70px;
     background-color: rgb(255 255 255 / 40%)!important;
   }
+
+  .Hamburger:hover{
+    background-color: rgb(163 138 103 / 50%)!important;
+  }
+
+
   .Navbar{
     flex-direction: column;
     height: 80vh;
