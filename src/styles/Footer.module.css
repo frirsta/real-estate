@@ -61,9 +61,11 @@
   transition: transform 0.3s ease-out;
   opacity: 0.3;
 }
-.FooterLink:hover {
+.FooterLink:hover,
+.PageLink:hover {
   transform: translate(5px, 0px);
   opacity: 1;
+  text-decoration: none!important;
 }
 .SocialMediaLinks,
 .PageLink {

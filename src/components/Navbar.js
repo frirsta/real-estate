@@ -11,7 +11,7 @@ function BasicExample() {
     <>
       <Navbar className={styles.NavbarContainer} expand="lg">
         <Container className={styles.NavBar}>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Toggle className={styles.Hamburger} aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className={`${styles.NavContainer} me-auto`}>
               <ul className={styles.Navbar}>

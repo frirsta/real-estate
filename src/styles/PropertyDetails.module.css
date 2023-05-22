@@ -39,9 +39,16 @@
   padding: 10px 50px !important;
   margin: 0px 40px !important;
   border-radius: 15px !important;
+  border: 1px solid #000!important;
 }
 .ShareIcon {
-  color: pink;
+  color: #000;
+}
+
+.ShareButton:hover {
+  background-color: #a38a67!important;
+  transition: all 0.5s;
+  border: none !important;
 }
 
 .AddressDetails {
