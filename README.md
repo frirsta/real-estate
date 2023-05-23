@@ -5,7 +5,20 @@ This is a real estate website, made for selling and advertising homes.
 
 Live link: https://real-estate-react.herokuapp.com/
 
+<<<<<<< HEAD
 Technologies:
+=======
+Live link: https://real-estate-react.herokuapp.com/   
+
+
+Technologies: 
+
+* React
+* Material UI
+* React Bootstrap
+* HTML
+* CSS
+>>>>>>> 1b9156d36f92ec09058f58275dc91afa456ecdd9
 
 - React
 - Material UI
