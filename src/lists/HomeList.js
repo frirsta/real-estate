@@ -37,27 +37,27 @@ import ApartmentEighteen from "../assets/homeFour/homeEighteen.jpg";
 const HomeList = [
   {
     id: "0",
-    source:
+    source1:
       "https://www.freepik.com/free-photo/analog-landscape-city-with-buildings_31261387.htm",
     alt1: "image1",
     src1: ApartmentOne,
 
-    source:
+    source2:
       "https://www.freepik.com/free-photo/empty-flat-interrior-with-elements-decoration_10025717.htm",
     alt2: "image2",
     src2: homeTwo,
 
-    source:
+    source3:
       "https://www.freepik.com/free-photo/interior-modern-kitchen-minimalist-style_25773339.htm",
     alt3: "image3",
     src3: homeThree,
 
-    source:
+    source4:
       "https://www.freepik.com/free-photo/modern-spacious-room-with-large-panoramic-window_13908610.htm",
     alt4: "image4",
     src4: homeFour,
 
-    source:
+    source5:
       "https://www.freepik.com/free-photo/3d-rendering-loft-luxury-living-room-with-bookshelf_26833973.htm",
     alt5: "image5",
     src5: homeFive,
@@ -82,27 +82,27 @@ const HomeList = [
   },
   {
     id: "1",
-    source:
+    source1:
       "Bild av Bianca: https://www.pexels.com/sv-se/foto/trappa-semester-blommor-hotell-1560065/",
     alt1: "image6",
     src1: ApartmentTwo,
 
-    source:
+    source2:
       "https://www.freepik.com/free-photo/modern-luxury-domestic-room-comfortable-relaxation-generative-ai_41074071.htm",
     alt2: "image7",
     src2: homeSeven,
 
-    source:
+    source3:
       "Bild av Jonathan Borba: https://www.pexels.com/sv-se/foto/arkitektur-lagenhet-modern-vardagsrum-9976126/",
     alt3: "image8",
     src3: homeEight,
 
-    source:
+    source4:
       "https://www.freepik.com/free-photo/stylish-scandinavian-living-room-with-design-mint-sofa-furnitures-mock-up-poster-map-plants-eleg_38852631.htm",
     alt4: "image9",
     src4: homeNine,
 
-    source:
+    source5:
       "https://www.freepik.com/free-photo/stylish-scandinavian-living-room-with-design-mint-sofa-furnitures-mock-up-poster-map-plants-eleg_38852655.htm",
     alt5: "image10",
     src5: homeTen,
@@ -127,27 +127,27 @@ const HomeList = [
   },
   {
     id: "2",
-    source:
+    source1:
       "Bild av Nothing Ahead: https://www.pexels.com/sv-se/foto/stad-semester-hotell-byggnad-3460599/",
     alt1: "image1",
     src1: ApartmentThree,
 
-    source:
+    source2:
       "https://www.freepik.com/free-photo/window-room-with-surreal-mystical-view_40572581.htm",
     alt2: "image2",
     src2: ApartmentEighteen,
 
-    source:
+    source3:
       "https://www.freepik.com/free-photo/white-textile-classical-style-sofa-vintage-room-flowers-ob-painted-barrels_3337208.htm",
     alt3: "image3",
     src3: ApartmentSeventeen,
 
-    source:
+    source4:
       "https://www.freepik.com/free-photo/modern-living-room-design-with-blue-accents-generated-by-ai_41451649.htm",
     alt4: "image4",
     src4: ApartmentSixteen,
 
-    source:
+    source5:
       "https://www.freepik.com/free-photo/blank-picture-frame-by-pink-velvet-armchair_18138417.htm",
     alt5: "image5",
     src5: ApartmentFifteen,
@@ -172,27 +172,27 @@ const HomeList = [
   },
   {
     id: "3",
-    source:
+    source1:
       "Bild av Nothing Ahead: https://www.pexels.com/sv-se/foto/stad-semester-hotell-byggnad-3460599/",
     alt1: "image6",
     src1: ApartmentFour,
 
-    source:
+    source2:
       "https://www.freepik.com/free-photo/modern-living-room-style_18946976.htm",
     alt2: "image7",
     src2: homeSeven,
 
-    source:
+    source3:
       "Bild av Jonathan Borba: https://www.pexels.com/sv-se/foto/arkitektur-lagenhet-modern-vardagsrum-9976126/",
     alt3: "image8",
     src3: homeEight,
 
-    source:
+    source4:
       "https://www.freepik.com/free-photo/stylish-scandinavian-living-room-with-design-mint-sofa-furnitures-mock-up-poster-map-plants-eleg_38852631.htm",
     alt4: "image9",
     src4: homeNine,
 
-    source:
+    source5:
       "https://www.freepik.com/free-photo/stylish-scandinavian-living-room-with-design-mint-sofa-furnitures-mock-up-poster-map-plants-eleg_38852655.htm",
     alt5: "image10",
     src5: homeTen,
@@ -217,27 +217,27 @@ const HomeList = [
   },
   {
     id: "4",
-    source:
+    source1:
       "https://www.freepik.com/free-photo/design-house-modern-villa-with-open-plan-living-private-bedroom-wing-large-terrace-with-privacy_43175006.htm",
     alt1: "image1",
     src1: ApartmentFive,
 
-    source:
+    source2:
       "https://www.freepik.com/free-photo/empty-flat-interrior-with-elements-decoration_10025717.htm",
     alt2: "image2",
     src2: homeTwo,
 
-    source:
+    source3:
       "https://www.freepik.com/free-photo/interior-modern-kitchen-minimalist-style_25773339.htm",
     alt3: "image3",
     src3: homeThree,
 
-    source:
+    source4:
       "https://www.freepik.com/free-photo/modern-spacious-room-with-large-panoramic-window_13908610.htm",
     alt4: "image4",
     src4: homeFour,
 
-    source:
+    source5:
       "https://www.freepik.com/free-photo/3d-rendering-loft-luxury-living-room-with-bookshelf_26833973.htm",
     alt5: "image5",
     src5: homeFive,
@@ -262,27 +262,27 @@ const HomeList = [
   },
   {
     id: "5",
-    source:
+    source1:
       "Bild av Gustavo Galeano Maz: https://www.pexels.com/sv-se/foto/lampor-trad-rum-korridor-13752246/",
     alt1: "image6",
     src1: ApartmentSix,
 
-    source:
+    source2:
       "https://www.freepik.com/free-photo/modern-luxury-domestic-room-comfortable-relaxation-generative-ai_41074071.htm",
     alt2: "image7",
     src2: homeSeven,
 
-    source:
+    source3:
       "https://www.freepik.com/free-photo/modern-living-room-style_18946976.htm",
     alt3: "image8",
     src3: homeSix,
 
-    source:
+    source4:
       "https://www.freepik.com/free-photo/stylish-scandinavian-living-room-with-design-mint-sofa-furnitures-mock-up-poster-map-plants-eleg_38852631.htm",
     alt4: "image9",
     src4: homeNine,
 
-    source:
+    source5:
       "https://www.freepik.com/free-photo/stylish-scandinavian-living-room-with-design-mint-sofa-furnitures-mock-up-poster-map-plants-eleg_38852655.htm",
     alt5: "image10",
     src5: homeTen,
@@ -307,27 +307,27 @@ const HomeList = [
   },
   {
     id: "6",
-    source:
+    source1:
       "Bild av Maria Orlova: https://www.pexels.com/sv-se/foto/natur-romantisk-sommar-hus-4913320/",
     alt1: "image1",
     src1: ApartmentSeven,
 
-    source:
+    source2:
       "https://www.freepik.com/free-photo/3d-room-interior-design-with-plants_19924861.htm",
     alt2: "image2",
     src2: ApartmentEleven,
 
-    source:
+    source3:
       "https://www.freepik.com/free-photo/3d-room-interior-design_19924857.htm",
     alt3: "image3",
     src3: ApartmentTwelve,
 
-    source:
+    source4:
       "https://www.freepik.com/free-photo/3d-room-interior-design-with-blue-motifs_19924829.htm",
     alt4: "image4",
     src4: ApartmentThirteen,
 
-    source:
+    source5:
       "https://www.freepik.com/free-photo/3d-room-interior-design-with_19924832.htm",
     alt5: "image5",
     src5: ApartmentFourteen,
@@ -352,27 +352,27 @@ const HomeList = [
   },
   {
     id: "7",
-    source:
+    source1:
       "Bild av Bilal Mansuri: https://www.pexels.com/sv-se/foto/byggnad-hus-arkitektur-hem-13041126/",
     alt1: "image6",
     src1: ApartmentEight,
 
-    source:
+    source2:
       "https://www.freepik.com/free-photo/beautiful-interior-shot-modern-house-with-white-relaxing-walls-furniture-technology_8028428.htm",
     alt2: "image7",
     src2: homeOne,
 
-    source:
+    source3:
       "Bild av Jonathan Borba: https://www.pexels.com/sv-se/foto/arkitektur-lagenhet-modern-vardagsrum-9976126/",
     alt3: "image8",
     src3: homeEight,
 
-    source:
+    source4:
       "https://www.freepik.com/free-photo/stylish-scandinavian-living-room-with-design-mint-sofa-furnitures-mock-up-poster-map-plants-eleg_38852631.htm",
     alt4: "image9",
     src4: homeNine,
 
-    source:
+    source5:
       "https://www.freepik.com/free-photo/stylish-scandinavian-living-room-with-design-mint-sofa-furnitures-mock-up-poster-map-plants-eleg_38852655.htm",
     alt5: "image10",
     src5: homeTen,

@@ -1,16 +1,14 @@
-import React from 'react';
-import HomeList from '../lists/HomeList';
-import { useParams } from 'react-router-dom';
-import styles from '../styles/Carousel.module.css';
-
-
+import React from "react";
+import HomeList from "../lists/HomeList";
+import { useParams } from "react-router-dom";
+import styles from "../styles/Carousel.module.css";
 
 const PropertyImages = () => {
-    const {id} = useParams();
-    
+  const { id } = useParams();
+
   return (
     <div>
-       <div className={styles.ProjectDetailsSection}>
+      <div className={styles.ProjectDetailsSection}>
         <div className={styles.Container}>
           <img
             src={HomeList[id].src1}
@@ -43,11 +41,9 @@ const PropertyImages = () => {
             className={styles.OrderFive}
           />
         </div>
-        
       </div>
-    
     </div>
-  )
-}
+  );
+};
 
-export default PropertyImages
+export default PropertyImages;

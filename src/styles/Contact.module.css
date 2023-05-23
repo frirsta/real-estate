@@ -9,7 +9,7 @@
   margin: 30px auto;
 }
 .Form {
-  width: 40vw;
+  width: 43vw;
   height: 500px;
 }
 .Row {
@@ -38,20 +38,18 @@
 }
 
 .ContactInformation {
-    width: 40vw;
-    font-size: 17px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: baseline;
-    
+  width: 40vw;
+  font-size: 17px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
 }
 
 .ContactDetails {
-    
 }
 .Icon {
-    padding: 15px 0;
+  padding: 15px 0;
 }
 .Container {
   display: flex;
@@ -63,79 +61,78 @@
 
 .Button {
   border: none !important;
-  background-color: #000!important;
+  background-color: #000 !important;
   border-radius: 0px !important;
-  padding: 20px 40px!important;
-  font-size: 20px!important;
-  margin-top: 50px!important;
+  padding: 20px 40px !important;
+  font-size: 20px !important;
+  margin-top: 50px !important;
 }
 .Button:hover {
-  background-color: #a38a67!important;
+  background-color: #a38a67 !important;
   transition: all 0.5s;
   border: none !important;
 }
 
 @media screen and (max-width: 1024px) {
-
-    .Container {
-        margin: 100px 0;
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: baseline;
-      }
-      .Form,
-      .ContactInformation{
-        width: 85vw;
-      }
+  .Container {
+    margin: 100px 0;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: baseline;
+  }
+  .Form,
+  .ContactInformation {
+    width: 85vw;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .Title{
-        font-size: 60px;
-    }
-    .FormLabel,
-    .FormInput{
-        font-size: 15px;
-    }
-    .FormLabel{
-        margin-top: 20px;
-    }
-    .Row{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .FormContainer{
-        margin: 0px;
-    }
-    .Form,
-    .ContactInformation{
-      width: 95vw;
-      padding: 20px;
-    }
-    .ContactInformation{
-        margin-top: 250px;
-    }
+  .Title {
+    font-size: 60px;
+  }
+  .FormLabel,
+  .FormInput {
+    font-size: 15px;
+  }
+  .FormLabel {
+    margin-top: 20px;
+  }
+  .Row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .FormContainer {
+    margin: 0px;
+  }
+  .Form,
+  .ContactInformation {
+    width: 95vw;
+    padding: 20px;
+  }
+  .ContactInformation {
+    margin-top: 250px;
+  }
 }
 
 @media screen and (max-width: 481px) {
-    .Title{
-        font-size: 45px;
-    }
-    .ContactInformation{
-        font-size: 15px;
-    }
-
+  .Title {
+    font-size: 45px;
+  }
+  .ContactInformation {
+    font-size: 15px;
+  }
 }
 @media screen and (max-width: 320px) {
-    .Title{
-        font-size: 35px;
-    }
-    .ContactInformation{
-        font-size: 15px;
-    }
-    .FormLabel, .FormInput{
-        font-size: 12px;
-    }
+  .Title {
+    font-size: 35px;
+  }
+  .ContactInformation {
+    font-size: 15px;
+  }
+  .FormLabel,
+  .FormInput {
+    font-size: 12px;
+  }
 }

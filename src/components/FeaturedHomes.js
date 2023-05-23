@@ -6,7 +6,7 @@ import Typography from "@mui/joy/Typography";
 import { Link } from "react-router-dom";
 import styles from "../styles/FeaturedHome.module.css";
 import CardContent from "@mui/joy/CardContent";
-import HomeList from '../lists/HomeList';
+import HomeList from "../lists/HomeList";
 
 const FeaturedHomes = () => {
   return (
@@ -60,7 +60,12 @@ const FeaturedHomes = () => {
                   }}
                 >
                   <Typography className={styles.LearnMoreContainer}>
-                    <Link to={`property/${HomeList[6].id}`} className={styles.LearnMore}>Learn more</Link>
+                    <Link
+                      to={`property/${HomeList[6].id}`}
+                      className={styles.LearnMore}
+                    >
+                      Learn more
+                    </Link>
                   </Typography>
                 </Box>
               </Box>
@@ -115,7 +120,12 @@ const FeaturedHomes = () => {
                   }}
                 >
                   <Typography className={styles.LearnMoreContainer}>
-                    <Link to={`property/${HomeList[1].id}`} className={styles.LearnMore}>Learn more</Link>
+                    <Link
+                      to={`property/${HomeList[1].id}`}
+                      className={styles.LearnMore}
+                    >
+                      Learn more
+                    </Link>
                   </Typography>
                 </Box>
               </Box>
@@ -137,7 +147,7 @@ const FeaturedHomes = () => {
               </div>
             </Typography>
           </CardContent>
-          <Box  sx={{ position: "relative" }}>
+          <Box sx={{ position: "relative" }}>
             <div>
               <figure>
                 <img
@@ -147,7 +157,7 @@ const FeaturedHomes = () => {
                   alt={HomeList[2].alt1}
                 />
               </figure>
-              </div>
+            </div>
             <CardCover
               className={`gradient-cover ${styles.CardCover}`}
               sx={{
@@ -172,7 +182,12 @@ const FeaturedHomes = () => {
                   }}
                 >
                   <Typography className={styles.LearnMoreContainer}>
-                    <Link to={`property/${HomeList[2].id}`}  className={styles.LearnMore}>Learn more</Link>
+                    <Link
+                      to={`property/${HomeList[2].id}`}
+                      className={styles.LearnMore}
+                    >
+                      Learn more
+                    </Link>
                   </Typography>
                 </Box>
               </Box>
@@ -227,7 +242,12 @@ const FeaturedHomes = () => {
                   }}
                 >
                   <Typography className={styles.LearnMoreContainer}>
-                    <Link to={`property/${HomeList[7].id}`} className={styles.LearnMore}>Learn more</Link>
+                    <Link
+                      to={`property/${HomeList[7].id}`}
+                      className={styles.LearnMore}
+                    >
+                      Learn more
+                    </Link>
                   </Typography>
                 </Box>
               </Box>

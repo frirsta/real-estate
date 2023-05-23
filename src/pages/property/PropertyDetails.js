@@ -10,7 +10,8 @@ import Address from "../../components/Address";
 import PropertyImages from "../../components/PropertyImages";
 import Agent from "../../components/Agent";
 import Hero from "../../components/Hero";
-import HeroImage from '../../assets/propertyDetails/hero.jpg';
+import HeroImage from "../../assets/propertyDetails/hero.jpg";
+import ContactPageForm from "../../components/ContactPageForm";
 
 const PropertyDetails = () => {
   const { id } = useParams();
@@ -18,13 +19,14 @@ const PropertyDetails = () => {
   return (
     <div>
       <Hero src={HeroImage} text={HomeList[id].address} />
-
       <PropertyImages />
       <div className={styles.Container}>
         <div className={styles.AddressDetails}>
           <div className={styles.HomeDetailsContainer}>
             <div className={styles.Address}>
-              <h2>{HomeList[id].address}, {HomeList[id].state}</h2>
+              <h2>
+                {HomeList[id].address}, {HomeList[id].state}
+              </h2>
               <Button className={styles.ShareButton} variant="outlined">
                 <ShareIcon className={styles.ShareIcon} />
               </Button>
@@ -90,6 +92,9 @@ const PropertyDetails = () => {
           nameTwo={HomeList[id].agentNameTwo}
           nameThree={HomeList[id].agentNameThree}
         />
+      </div>
+      <div className={styles.ContactPageForm}>
+        <ContactPageForm />
       </div>
     </div>
   );

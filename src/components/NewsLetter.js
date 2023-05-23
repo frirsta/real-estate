@@ -5,7 +5,6 @@ import Input from "@mui/joy/Input";
 import Button from "@mui/joy/Button";
 import styles from "../styles/Newsletter.module.css";
 
-
 export default function InputSubscription() {
   const [data, setData] = React.useState({
     email: "",
@@ -40,7 +39,7 @@ export default function InputSubscription() {
           error={data.status === "failure"}
           endDecorator={
             <Button
-            className={styles.Button}
+              className={styles.Button}
               variant="solid"
               color="info"
               loading={data.status === "loading"}

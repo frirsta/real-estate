@@ -4,14 +4,17 @@ import Navbar from "react-bootstrap/Navbar";
 import { Link, Outlet } from "react-router-dom";
 import styles from "../styles/Navbar.module.css";
 import Button from "@mui/joy/Button";
-import style from '../App.module.css';
+import style from "../App.module.css";
 
 function BasicExample() {
   return (
     <>
       <Navbar className={styles.NavbarContainer} expand="lg">
         <Container className={styles.NavBar}>
-          <Navbar.Toggle className={styles.Hamburger} aria-controls="basic-navbar-nav" />
+          <Navbar.Toggle
+            className={styles.Hamburger}
+            aria-controls="basic-navbar-nav"
+          />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className={`${styles.NavContainer} me-auto`}>
               <ul className={styles.Navbar}>
@@ -47,7 +50,7 @@ function BasicExample() {
                   </Link>
                 </li>
               </ul>
-                <Button className={style.Button}>+123 456 789</Button>
+              <Button className={style.Button}>+123 456 789</Button>
             </Nav>
           </Navbar.Collapse>
         </Container>

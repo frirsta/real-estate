@@ -3,9 +3,9 @@ import { useForm } from "react-hook-form";
 import { object, string, number, date } from "yup";
 import Button from "@mui/joy/Button";
 import { yupResolver } from "@hookform/resolvers/yup";
-import styles from '../styles/Form.module.css';
+import styles from "../styles/Form.module.css";
 import LocalPhoneOutlinedIcon from "@mui/icons-material/LocalPhoneOutlined";
-import Input from '@mui/joy/Input';
+import Input from "@mui/joy/Input";
 import EmailOutlinedIcon from "@mui/icons-material/EmailOutlined";
 import DriveFileRenameOutlineOutlinedIcon from "@mui/icons-material/DriveFileRenameOutlineOutlined";
 import CalendarMonthOutlinedIcon from "@mui/icons-material/CalendarMonthOutlined";
@@ -45,7 +45,6 @@ const ContactForm = ({ price }) => {
           <Input
             placeholder="Enter your full name"
             className={styles.FormInput}
-            
             {...register("name")}
           />
           {errors.name && <span>This field is required</span>}
@@ -55,7 +54,6 @@ const ContactForm = ({ price }) => {
           <Input
             placeholder="Email address"
             className={styles.FormInput}
-            
             {...register("email")}
           />
           {errors.email && <span>Not valid email address</span>}
@@ -66,7 +64,6 @@ const ContactForm = ({ price }) => {
           <Input
             placeholder="Phone number"
             className={styles.FormInput}
-            
             {...register("number")}
           />
           {errors.number && <span>Not valid phone number</span>}
@@ -77,7 +74,6 @@ const ContactForm = ({ price }) => {
             type="date"
             placeholder="date"
             className={styles.FormInput}
-            
             {...register("date")}
           />
           {errors.date && <span>Not valid date</span>}

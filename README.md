@@ -1,20 +1,18 @@
 # Regal Residences
+
 This is a hobby project.
 This is a real estate website, made for selling and advertising homes.
 
+Live link: https://real-estate-react.herokuapp.com/
 
-Live link: https://real-estate-react.herokuapp.com/   
+Technologies:
 
-
-Technologies: 
-
-* React
-* Material UI
-* React Bootstrap
-* JavaScript
-* HTML
-* CSS
-
+- React
+- Material UI
+- React Bootstrap
+- JavaScript
+- HTML
+- CSS
 
 Libraries
 npm i yup
@@ -28,9 +26,10 @@ npm install @mui/material @mui/styled-engine-sc styled-components
 npm install @mui/material @emotion/react @emotion/styled
 npm install react-bootstrap bootstrap
 
-
 # Credits
+
 Sources
+
 <details>
 <summary>images</summary>
         home page hero
@@ -158,7 +157,7 @@ Sources
       "Bild av Jonathan Borba: https://www.pexels.com/sv-se/foto/arkitektur-lagenhet-modern-vardagsrum-9976126/",
 
       "https://www.freepik.com/free-photo/stylish-scandinavian-living-room-with-design-mint-sofa-furnitures-mock-up-poster-map-plants-eleg_38852631.htm",
-  
+
       "https://www.freepik.com/free-photo/stylish-scandinavian-living-room-with-design-mint-sofa-furnitures-mock-up-poster-map-plants-eleg_38852655.htm",
 
       "Bild av Nothing Ahead: https://www.pexels.com/sv-se/foto/stad-semester-hotell-byggnad-3460599/",

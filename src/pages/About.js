@@ -26,7 +26,6 @@ const About = () => {
           <div className={style.AboutPageImage}></div>
         </div>
       </div>
-  
     </div>
   );
 };

@@ -18,15 +18,15 @@ body {
 
 .Button {
   background-color: #000 !important;
-  border: none!important;
-  
+  border: none !important;
+
   font-family: "Montserrat", sans-serif !important;
   border-radius: 0px !important;
 
   width: 200px;
 }
 .Button:hover {
-  background-color: #a38a67!important;
+  background-color: #a38a67 !important;
   transition: all 0.5s;
   border: none !important;
 }
@@ -53,48 +53,47 @@ body {
 }
 .Brand {
   font-family: "BrandFont", "sans-serif" !important;
-    color: #000;
-    position: absolute;
-    z-index: 1000;
-    text-align: center;
-    width: 100%;
-    top: 70px;
-    font-size: 50px;
+  color: #000;
+  position: absolute;
+  z-index: 1000;
+  text-align: center;
+  width: 100%;
+  top: 70px;
+  font-size: 50px;
 }
 
 @media screen and (max-width: 1024px) {
-
   .Button {
-    
     color: #a38a67;
   }
 }
 @media screen and (max-width: 991px) {
   h1 {
-    font-size: 50px!important;
+    font-size: 50px !important;
   }
-  .Brand{
+  .Brand {
     top: 70px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .Title{  font-size: 45px!important;
+  .Title {
+    font-size: 45px !important;
     width: 95%;
   }
 }
 
 @media screen and (max-width: 481px) {
   .Title {
-    font-size: 40px!important;
+    font-size: 40px !important;
   }
 }
 
 @media screen and (max-width: 320px) {
   h1 {
-    font-size: 40px!important;
+    font-size: 40px !important;
   }
-  .Title{
-    font-size: 35px!important;
+  .Title {
+    font-size: 35px !important;
   }
 }

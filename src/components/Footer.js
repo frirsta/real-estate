@@ -7,7 +7,6 @@ import YouTubeIcon from "@mui/icons-material/YouTube";
 import Link from "@mui/joy/Link";
 import InputSubscription from "./NewsLetter";
 
-
 function Footer() {
   return (
     <>
@@ -15,16 +14,16 @@ function Footer() {
         <Card.Body className={styles.FooterContainer}>
           <div className={styles.Container}>
             <div className={styles.ContactLinks}>
-          <div className={styles.Contact}>
-            <span className={styles.FooterTitle}>Quick Links</span>
-            <Link
+              <div className={styles.Contact}>
+                <span className={styles.FooterTitle}>Quick Links</span>
+                <Link
                   className={styles.FooterLink}
                   onClick={(event) => event.preventDefault()}
                   underline="hover"
                   fontSize="inherit"
                   href="/"
                 >
-                 About us
+                  About us
                 </Link>
                 <Link
                   className={styles.FooterLink}
@@ -53,18 +52,17 @@ function Footer() {
                 >
                   Career
                 </Link>
-            </div>
-            <div className={styles.Contact}>
-            <span className={styles.FooterTitle}>Contact us</span>
-            <Link
+              </div>
+              <div className={styles.Contact}>
+                <span className={styles.FooterTitle}>Contact us</span>
+                <Link
                   className={styles.FooterLink}
                   onClick={(event) => event.preventDefault()}
                   underline="hover"
                   fontSize="inherit"
                   href="/"
                 >
-                  8101 Sunland Blvd
-                  Sun Valley, California
+                  8101 Sunland Blvd Sun Valley, California
                 </Link>
                 <Link
                   className={styles.FooterLink}
@@ -84,55 +82,43 @@ function Footer() {
                 >
                   (818) 767-2050
                 </Link>
+              </div>
             </div>
+            <div className={styles.FooterTextContainer}>
+              <div className={styles.SocialMedia}>
+                <span className={styles.FooterTitle}>Follor us!</span>
+                <span className={styles.FooterText}>
+                  Consectetur adipiscing elit. sed do eiusmod tempor incididunt
+                  ut labore et dolore magna aliqua.
+                </span>
+                <ul className={styles.FooterList}>
+                  <Link target="_blank" href="https://www.facebook.com/">
+                    <FacebookIcon className={styles.SocialMediaLinks} />
+                  </Link>
+
+                  <Link target="_blank" href="https://www.instagram.com/">
+                    <InstagramIcon className={styles.SocialMediaLinks} />
+                  </Link>
+
+                  <Link target="_blank" href="https://www.linkedin.com/">
+                    <LinkedInIcon className={styles.SocialMediaLinks} />
+                  </Link>
+
+                  <Link target="_blank" href="https://www.youtube.com/">
+                    <YouTubeIcon className={styles.SocialMediaLinks} />
+                  </Link>
+                </ul>
+              </div>
+              <div className={styles.Contact}>
+                <span className={styles.FooterTitle}>
+                  Subscribe to our newsletter
+                </span>
+
+                <InputSubscription />
+              </div>
             </div>
-          <div className={styles.FooterTextContainer}>
-            <div className={styles.SocialMedia}>
-          <span className={styles.FooterTitle}>Follor us!</span>
-            <span className={styles.FooterText}>Consectetur adipiscing elit. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
-            <ul className={styles.FooterList}>
-              <Link
-               
-                target="_blank"
-                href="https://www.facebook.com/"
-              >
-                <FacebookIcon  className={styles.SocialMediaLinks} />
-              </Link>
-
-              <Link
-               
-                target="_blank"
-                href="https://www.instagram.com/"
-              >
-                <InstagramIcon  className={styles.SocialMediaLinks} />
-              </Link>
-
-              <Link
-               
-                target="_blank"
-                href="https://www.linkedin.com/"
-              >
-                <LinkedInIcon  className={styles.SocialMediaLinks} />
-              </Link>
-
-              <Link
-               
-                target="_blank"
-                href="https://www.youtube.com/"
-              >
-                <YouTubeIcon  className={styles.SocialMediaLinks} />
-              </Link>
-            </ul>
-            </div>
-                      <div className={styles.Contact}>
-                      <span className={styles.FooterTitle}>Subscribe to our newsletter</span>
-
-     <InputSubscription />
-            </div>
-          </div>
           </div>
           <div className={styles.FooterPageList}>
-           
             <ul className={styles.FooterPageLinks}>
               {[
                 "Home",

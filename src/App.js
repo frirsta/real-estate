@@ -9,8 +9,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Amenities from "./pages/Amenities";
 import Location from "./pages/Location";
-import styles from './App.module.css';
-
+import styles from "./App.module.css";
 
 function App() {
   return (
