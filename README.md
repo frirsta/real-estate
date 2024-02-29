@@ -3,9 +3,9 @@
 This is a hobby project.
 The Real Estate website is an online platform built using ReactJS that enables users to explore real estate properties. The website provides a user-friendly interface and showcases a wide range of properties with detailed information and visual content.
 
-Live link: https://real-estate-react.herokuapp.com/
+Live link: https://regalresidences.netlify.app/
 
-Live link: https://real-estate-react.herokuapp.com/   
+Live link: https://regalresidences.netlify.app/   
 
 
 # Technologies: 
